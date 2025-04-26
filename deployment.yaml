@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
       - name: backend-app
-        image: 3.147.60.99:5000/backend-app:v1
+        image: 3.142.249.69:5000/backend-app:v1
         ports:
         - containerPort: 8084
