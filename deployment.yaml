@@ -18,5 +18,3 @@ spec:
         image: 13.58.246.191:5000/backend-app:v1
         ports:
         - containerPort: 8084
-      imagePullSecrets:
-      - name: nexus-registry-credentials  # This is the secret you created
